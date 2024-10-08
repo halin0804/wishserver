@@ -1,0 +1,17 @@
+{
+  "name": "wish",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-ws": "^5.0.2",
+    "git": "^0.1.5",
+    "ws": "^8.18.0"
+  }
+}
