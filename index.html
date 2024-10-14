@@ -21,12 +21,12 @@
         };
 
         // Handle WebSocket message
-        ws.onmessage = (event) => {
+        wss.onmessage = (event) => {
             console.log('Message from server:', event.data);
         };
 
         // Handle WebSocket close
-        ws.onclose = () => {
+        wss.onclose = () => {
             console.log('Disconnected from WebSocket server');
         };
 
