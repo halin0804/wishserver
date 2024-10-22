@@ -7,7 +7,7 @@ app.get("/", function(req, res){
     res.sendfile("index.html");
 });
 
-const ws = new WebSocket.Server({ port: 8000 });
+const wss = new WebSocket.Server({ port: 8000 });
 
 wss.on('connection', (ws) => {
     console.log('A client connected.');
